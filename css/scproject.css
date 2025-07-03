@@ -516,9 +516,9 @@ flex-direction: row;
 align-items: center;
 justify-content: center;
 row-gap: 12px;
-  width: 70%;
-  background-color:black;
-  height: auto;
+  width: 80%;
+  background-color:rgb(148, 133, 133);
+  height: 96%;
   margin-top: 30px ;
   
   
@@ -532,7 +532,7 @@ row-gap: 12px;
   width: 30%;
   justify-content: center;
   background-color:green;
-  height: auto;
+  height: 100%;
  flex-wrap: wrap;
  gap: 15px ;
  /* border-color: aqua;
@@ -569,3 +569,11 @@ row-gap: 12px;
 
 }
 
+
+
+
+
+.form input{
+  height: 20px;
+  text-align: center;  
+}
