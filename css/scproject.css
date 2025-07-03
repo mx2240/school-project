@@ -571,6 +571,20 @@ row-gap: 12px;
 
 
 
+ .blue3{
+   display: flex;
+  width:343px ;  
+  height:50px;
+  background-color: rgb(68, 0, 255);
+  align-self: center;
+  justify-self: center;
+  
+
+  
+}
+
+    
+
 
 
 .form input{
