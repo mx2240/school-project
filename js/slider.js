@@ -32,7 +32,7 @@ function showSlides(n) {
 
 
 
-// let slideIndex = 0;
+let slideIndex1 = 0;
 showSlides();
 
 function showSlides() {
@@ -46,3 +46,28 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
+
+
+
+
+
+// let slideIndex2 = [1,1];
+// /* Class the members of each slideshow group with different CSS classes */
+// let slideId = ["mySlides1", "mySlides2","mySlides3","mySlides4"]
+// showSlides(1, 0);
+// showSlides(1, 1);
+
+// function plusSlides(n, no) {
+//   showSlides(slideIndex[no] += n, no);
+// }
+
+// function showSlides(n, no) {
+//   let i;
+//   let x = document.getElementsByClassName(slideId[no]);
+//   if (n > x.length) {slideIndex[no] = 1}
+//   if (n < 1) {slideIndex[no] = x.length}
+//   for (i = 0; i < x.length; i++) {
+//     x[i].style.display = "none";
+//   }
+//   x[slideIndex[no]-1].style.display = "block";
+// }

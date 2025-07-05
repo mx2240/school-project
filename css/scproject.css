@@ -432,6 +432,17 @@
 
 }
 
+
+.innerbox2{
+  height: auto;
+  width: 400px;
+  
+
+}
+
+
+
+
 .nav1 a{
   text-decoration: none;
 }
@@ -594,3 +605,14 @@ row-gap: 12px;
   height: 20px;
   text-align: center;  
 }
+
+
+
+
+
+
+
+
+
+
+
