@@ -27,7 +27,9 @@
       *{
         margin: 0px;
         list-style: none;
-        font-family:'Times New Roman', Times, serif;
+        
+      
+   
 }
 
       .text-white{
@@ -181,14 +183,14 @@
 
       }
 
-      .box1{
+      /* .box1{
         display: flex;
         flex-direction: row;
         height:700px;
         background-color: #fccf3b;
         align-items: center;
 
-      }
+      } */
 
 
       
@@ -610,8 +612,13 @@ row-gap: 12px;
 
 
 
-
-
+.formContainer{
+  display: flex;
+   justify-content: center; 
+   align-items: center; 
+   height: 1000px;
+   width:100% ;
+}
 
 
 
