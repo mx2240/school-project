@@ -1,0 +1,29 @@
+.form fieldset{
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 400px;
+}
+
+
+.login{
+
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    display: none;
+}
+
+.register{
+    
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    display: flex;
+}
+
+.SwapDisplay{
+    display: flex;
+   
+}
