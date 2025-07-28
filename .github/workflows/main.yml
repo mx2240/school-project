@@ -16,7 +16,7 @@ jobs:
         password: ${{ secrets.ftp_password }}
         server-dir: htdocs/
 
-        
+
 
     # - name: 🚚 Update Dependency......
     #   uses: shivammathur/setup-php@15c43e89cdef867065b0213be354c2841860869e
@@ -33,8 +33,8 @@ jobs:
     #   run: chmod -R 777 storage bootstrap/cache
     # # - name: Create Database
     #   # run: |
-      #   mkdir -p laravel/database
-      #   touch database/database.sqlite
+    #     mkdir -p laravel/database
+    #     touch database/database.sqlite
     # - name: Execute tests (Unit and Feature tests) via PHPUnit/Pest
     #   env:
     #       DB_CONNECTION: sqlite
