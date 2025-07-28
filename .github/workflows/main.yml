@@ -1,3 +1,4 @@
+
 on: push
 name: 🚀 Deploy website on push
 jobs:
@@ -12,11 +13,9 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: ftpupload.net
-        username: if0_39578382
+        username: if0_39579409
         password: ${{ secrets.ftp_password }}
         server-dir: htdocs/
-
-
 
     # - name: 🚚 Update Dependency......
     #   uses: shivammathur/setup-php@15c43e89cdef867065b0213be354c2841860869e
@@ -32,11 +31,11 @@ jobs:
     # - name: Directory Permissions
     #   run: chmod -R 777 storage bootstrap/cache
     # # - name: Create Database
-    #   # run: |
-    #     mkdir -p laravel/database
-    #     touch database/database.sqlite
-    # - name: Execute tests (Unit and Feature tests) via PHPUnit/Pest
-    #   env:
-    #       DB_CONNECTION: sqlite
-    #       DB_DATABASE: content/database/database.sqlite
+    # #   # run: |
+    #   #   mkdir -p laravel/database
+    #   #   touch database/database.sqlite
+    # # - name: Execute tests (Unit and Feature tests) via PHPUnit/Pest
+    # #   env:
+    # #       DB_CONNECTION: sqlite
+    # #       DB_DATABASE: content/database/database.sqlite
     #   run: php artisan test
