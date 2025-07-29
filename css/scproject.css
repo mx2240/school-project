@@ -636,3 +636,13 @@ row-gap: 12px;
 
 
 
+
+.background{
+
+  display: flex;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
