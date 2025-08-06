@@ -7,6 +7,7 @@
        .row{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content:space-evenly ;
         align-items: center;
         row-gap: 20px;
@@ -16,10 +17,12 @@
        .row1{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content:space-evenly ;
         align-items: center;
         row-gap:20px;
         height:700px;
+ 
         
       
       }
@@ -110,6 +113,7 @@
       .nav1{
         display: flex;
         flex-direction: row;
+    
         height:50px ;
         background-color:  rgba(25,47,89,255);
         justify-content: space-around;
@@ -122,7 +126,9 @@
        .nav{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         height:70px ;
+
         background-color:rgba(24,24,24,255);
         justify-content: space-around;
         align-items: center;
@@ -142,6 +148,7 @@
         justify-content: space-around;
         align-items: center;
         color: rgb(255, 255, 255);
+        flex-wrap: wrap;
       }
 
 
@@ -191,6 +198,8 @@
         display: flex;
         flex-direction: row;
         height: 700px;
+        flex-wrap: wrap;
+        flex-grow: 1;
         background-color: #fccf3b;
         align-items: center;
 
@@ -210,6 +219,7 @@
       .box2{
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         height: 700px;
         background-color: #fccf3b;
         align-items: center;
@@ -251,6 +261,7 @@
 
       .blue{
    display: flex;
+     flex-wrap: wrap;
   width:500px ;  
   height:200px;
   background-color: rgb(68, 0, 255);
@@ -262,8 +273,8 @@
 
 .red{
   display: flex;
-  width:500px ;  
-  height:200px;
+  width:200px ;  
+  height:500px;
   background-color: rgb(255, 0, 0);
   
  
@@ -273,6 +284,7 @@
 
 .green{
   display: flex;
+    flex-wrap: wrap;
   width:500px ;  
   height:200px;
   background-color: rgb(63, 207, 107);
@@ -283,6 +295,7 @@
 
       .blue2{
    display: flex;
+     flex-wrap: wrap;
   width:500px ;  
   height:200px;
   background-color: rgb(68, 0, 255);
@@ -423,7 +436,7 @@
       padding: 14px 40px;
       border-right: #0f8f0a;
       color: white;
-    
+      flex-wrap: wrap;
 
 
 
@@ -542,6 +555,7 @@ row-gap: 12px;
 .left3{
 display: flex;
 flex-direction: row;
+flex-wrap: wrap;
 align-items: center;
 justify-content: center;
 row-gap: 12px;
@@ -568,6 +582,7 @@ row-gap: 12px;
  box-shadow: 0px 0px 10px 1px rgb(176, 176, 230); */
  margin-left: 10px;
 
+ flex-wrap: wrap;
 }
 
 
@@ -645,4 +660,43 @@ row-gap: 12px;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.img{
+  height: 100px;
+  width: 300px;
+}
+
+
+.ev{
+
+  height: auto;
+  /* width: 400px; */
+ width: auto;
+
+ flex-wrap: wrap;
+}
+
+
+.nw{
+
+  /* height: auto; */
+  /* width: 400px; */
+ /* width: auto; */
+
+ flex-wrap: wrap;
+
+ height: auto;
+  width: 400px;
+  border: 1px solid rgb(22, 22, 22);
+}
+
+
+.red7{
+
+  flex-wrap: wrap;
+   display: flex;
+  width:200px ;  
+  height:500px;
+  background-color: rgb(255, 0, 0);
 }
