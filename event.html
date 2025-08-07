@@ -26,8 +26,8 @@
 
 <div class="nav">
 
- <div class="log">
-    <img src="image/test.png" alt="">
+ <div class="log" >
+    <img src="image/test.png" alt="" >
  </div>
 
  <ul>
@@ -51,7 +51,7 @@
 
 
 
-<div class="box2" style="background-image: url(image/b2.jpg); background-size: cover; background-color: transparent;height: fit-content;">
+<div class="box" style="background-image: url(image/b2.jpg); background-size: cover; background-color: transparent;height: fit-content;overflow: hidden;" >
      
     <div class="blue" style="margin-top: 200px; height: 103px; width:553px; background-color: transparent;">
         <h1 class="text-c text-white f-size50"    style="align-self: center; margin-left:100px ; margin-bottom: 30px; ;">EVENTS</h1>
@@ -61,21 +61,34 @@
 </div>
 
 
-<div class="box2 " style="background-color:rgb(240, 238, 238);">
- 
-  <div class="innerbox2" style="align-self: self-start; margin-left: 40px; margin-top: 50px;">
+
+
+
+
+<div class="row" style="align-items: start; justify-content: start; height: fit-content;">
+
+  <div class="innerbox2">
     <h1   style="margin-top: 20px;"> Event</h1>
-    <a href="" class="text-green">  View All Event</a>
-  </div>
+    <a href= "event.html" class="text-green">  Read all Event </a>
+  </div> 
+</div>
+<br>
+<br>
 
-  <div class="row" style="margin-top: 50px;">
-  <div class="blue" style="background-image: url(image/e2.jpg); background-size: cover;"></div>
-  <div class="red" style="background-image: url(image/e1.jpg); background-size: cover; margin-left: 5px; margin-right: 5px;"></div>
-  <div class="green"  style="background-image: url(image/e3.jpg); background-size: cover;"></div>
-  </div>
 
-<div class="row">
-    <div class=" red" style="background-color: white;" >
+
+
+
+
+
+
+<div class="row"  style="margin: 50px;">
+    <div class=" ev" style="background-color: white; border: 1px solid red;" >
+        
+           <div class="red7"  style="height: 210px ; width: 399px; height: fit-content;">
+   <img src="image/e2.jpg" alt="" width="100%" height="100%">
+  </div>
+        
       <div class="box" style="height: fit-content; background-color: white;">
         <div class="blue" style="height:110px ; width:63px ;">
           <h1 class="text-green f-size24" style="background-color: white;"> <br> &nbsp;17 &nbsp;DEC</h1>
@@ -88,7 +101,16 @@
 
       </div>
     </div>
-    <div class="green"  style="background-color: white; margin-left: 5px; margin-right: 5px;" >
+
+
+
+
+    <div class="ev"  style="background-color: white;border: 1px solid red;" >
+        <!-- <div class="red" style="background-image: url(image/e1.jpg); background-size: cover; margin-left: 5px; margin-right: 5px;"></div> 
+           -->
+            <div class="red7"  style="height: 210px ; width: 399px; height: fit-content;">
+   <img src="image/e1.jpg" alt="" width="100%" height="100%">
+  </div>
       <div class="box" style="height: fit-content; background-color: white;">
         <div class="blue" style="height:110px ; width:63px ;">
           <h1 class="text-green f-size24" style="background-color: white; "> <br> &nbsp;04 &nbsp;Nov</h1>
@@ -100,8 +122,15 @@
         </div>
 
       </div>
-    </div>
-    <div class=" blue" style="background-color: white;" >
+    </div> 
+
+
+    
+ <div class=" ev" style="background-color: white; ;border: 1px solid red;" >
+       <!-- <div class="green"  style="background-image: url(image/e3.jpg); background-size: cover;"></div> -->
+         <div class="red7"  style="height: 210px ; width: 399px; height: fit-content;">
+   <img src="image/e3.jpg" alt="" width="100%" height="100%">
+  </div>
       <div class="box" style="height: fit-content; background-color: white;">
         <div class="blue" style="height:110px ; width:63px ;">
           <h1 class="text-green f-size24" style="background-color: white; "> <br> &nbsp; 11  &nbsp;Sep
@@ -118,6 +147,7 @@
   </div>
 
 </div>
+ 
 
 
 
@@ -130,7 +160,18 @@
 
 
 
-<footer class="footer row">
+
+
+
+
+
+
+
+
+
+
+
+<footer class="row " style="background-color:rgba(24,24,24,255) ;">
 
  <div class="first">
   <br>
@@ -162,8 +203,8 @@ admin@kingsteruni.edu
 
 
 
- <div class="second">
-  <h3 class="text-white" style="margin-top:10px;"> Our Campus</h3>
+ <div class="second"  style="background-color: rgba(24,24,24,255);">
+  <h3 class="text-white" style="margin-top:10px; "> Our Campus</h3>
   <br>
   <br>
   
@@ -186,7 +227,7 @@ admin@kingsteruni.edu
  </div>
 
 
- <div class="third">
+ <div class="third"  style="background-color: rgba(24,24,24,255);">
   <h3 class="text-white" style="margin-top:10px;">Acedemics</h3>
   <br>
   <br>
@@ -208,7 +249,7 @@ admin@kingsteruni.edu
  </div>
 
 
- <div class="fourth">
+ <div class="fourth"  style="background-color: rgba(24,24,24,255);">
   <h3 class="text-white" style="margin-top:10px;"> Campus Life</h3>
   <br>
   <br>
@@ -243,25 +284,18 @@ admin@kingsteruni.edu
 
 
 
-<footer class="f nav3">
+<footer class=" row" style="background-color: rgba(32,32,32,255) ;">
 
 <div class="fi" style="margin-top: 30px;">
-  <h3> Copyright All Right Reserved 2025.</h3>
+  <h3 class="text-white"> Copyright All Right Reserved 2025.</h3>
 </div>
 
-<div class="se" style="margin-top: 30px;">
+<div class="se" style="margin-top: 30px">
   <img src="image/fs.png" alt="">
 </div>
 
 
 </footer>
-
-
-
-
-
-
-
 
 
 

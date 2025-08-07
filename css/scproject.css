@@ -149,6 +149,7 @@
         align-items: center;
         color: rgb(255, 255, 255);
         flex-wrap: wrap;
+        row-gap: 10px;
       }
 
 
@@ -205,14 +206,14 @@
 
       }
 
-      /* .box1{
+      .box1{
         display: flex;
         flex-direction: row;
         height:700px;
         background-color: #fccf3b;
         align-items: center;
 
-      } */
+      }
 
 
       
@@ -323,6 +324,7 @@
 
 .green2{
   display: flex;
+  flex-wrap: wrap;
   width:500px ;  
   height:200px;
   background-color: rgb(56, 201, 100);
