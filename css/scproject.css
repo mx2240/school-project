@@ -113,7 +113,7 @@
       .nav1{
         display: flex;
         flex-direction: row;
-    
+       flex-wrap: wrap;
         height:50px ;
         background-color:  rgba(25,47,89,255);
         justify-content: space-around;
@@ -128,7 +128,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         height:70px ;
-
         background-color:rgba(24,24,24,255);
         justify-content: space-around;
         align-items: center;
@@ -673,10 +672,10 @@ row-gap: 12px;
 .ev{
 
   height: auto;
-  /* width: 400px; */
  width: auto;
-
- flex-wrap: wrap;
+ border-radius: 5px ;
+ border: 1px sold rgb(235, 70, 70);
+ /* flex-wrap: wrap; */
 }
 
 
