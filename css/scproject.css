@@ -468,6 +468,17 @@
 
  }
 
+ .innerbox4 {
+   height: auto;
+   width: 400px;
+   border: 1px solid white;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+
+ }
+
+
 
 
 
@@ -506,6 +517,23 @@ row-gap: 10px; */
  .right {
    display: flex;
    flex-direction: row;
+   align-items: start;
+   width: 70%;
+   justify-content: center;
+   background-color: transparent;
+   height: auto;
+   flex-wrap: wrap;
+   gap: 15px;
+   /* border-color: aqua;
+ box-shadow: 0px 0px 10px 1px rgb(176, 176, 230); */
+   margin-left: 10px;
+
+ }
+
+
+ .right1 {
+   display: flex;
+   flex-direction: column;
    align-items: start;
    width: 70%;
    justify-content: center;
