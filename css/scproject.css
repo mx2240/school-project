@@ -728,3 +728,27 @@ row-gap: 10px; */
    height: 500px;
    background-color: rgb(255, 0, 0);
  }
+
+ .keyword input::placeholder {
+   color: white;
+ }
+
+
+ .main-filter {
+
+   width: 600px;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+
+
+ .main-filter form {
+
+   display: flex;
+   flex-direction: column;
+   row-gap: 20px;
+   margin-top: 20px;
+ }
