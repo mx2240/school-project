@@ -465,8 +465,22 @@
    height: auto;
    width: 400px;
 
+ }
+
+
+
+ .innerbox3 {
+   height: auto;
+   width: 400px;
+   border: 1px solid white;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
 
  }
+
+
+
 
  .innerbox4 {
    height: auto;
