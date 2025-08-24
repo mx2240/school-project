@@ -4,6 +4,9 @@
    row-gap: 20px;
  }
 
+
+
+
  .row {
    display: flex;
    flex-direction: row;
@@ -125,6 +128,19 @@
 
 
 
+ /* .nav {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   height: 100px;
+   background-color: rgba(24, 24, 24, 255);
+   justify-content: space-around;
+   align-items: center;
+   color: rgb(255, 255, 255);
+ } */
+
+
+
  .nav {
    display: flex;
    flex-direction: row;
@@ -134,7 +150,26 @@
    justify-content: space-around;
    align-items: center;
    color: rgb(255, 255, 255);
+   font-size: 18px;
  }
+
+ @media (max-width: 600px) {
+   .nav {
+     flex-direction: row;
+     /* Stack vertically */
+     height: auto;
+     /* Adjust height */
+     background-color: rgba(24, 24, 24, 255);
+     /* DodgerBlue */
+     font-size: 15px;
+     /* Smaller font */
+     text-align: center;
+   }
+ }
+
+
+
+
 
 
 
