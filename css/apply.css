@@ -1,0 +1,70 @@
+ body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background: #f9f9f9;
+     color: #333;
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+     /* line-height: 1.6; */
+ }
+
+
+ form {
+     width: 100%;
+     margin: auto;
+     padding: 20px;
+     border: 1px solid #ccc;
+     border-radius: 6px;
+     overflow: hidden;
+ }
+
+ h1 {
+     text-align: center;
+ }
+
+ label {
+     display: block;
+     margin-top: 12px;
+ }
+
+ input,
+ select,
+ textarea {
+     width: 100%;
+     padding: 8px;
+     margin-top: 4px;
+ }
+
+ button {
+     margin-top: 16px;
+     padding: 10px 15px;
+ }
+
+
+
+ main {
+     padding: 2rem;
+     max-width: 900px;
+     margin: auto;
+ }
+
+
+
+ aside {
+     background: #eee;
+     padding: 1rem;
+     border-radius: 8px;
+ }
+
+
+ .container {
+     display: grid;
+     grid-template-columns: 3fr 0fr;
+     /* Mobile */
+     gap: 1rem;
+     padding: 1rem;
+     flex-grow: 1;
+     flex-wrap: wrap;
+ }
