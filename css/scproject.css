@@ -146,10 +146,10 @@
    flex-direction: row;
    flex-wrap: wrap;
    height: 100px;
-   background-color: rgba(24, 24, 24, 255);
+   background-color: white;
    justify-content: space-around;
    align-items: center;
-   color: rgb(255, 255, 255);
+   color: rgba(24, 24, 24, 255);
    font-size: 18px;
  }
 
