@@ -138,6 +138,16 @@
  }
 
 
+ @media (max-width: 600px) {
+
+   .nav1 {
+
+     display: none;
+   }
+
+
+ }
+
 
  /* .nav {
    display: flex;
@@ -170,11 +180,12 @@
      /* Stack vertically */
      height: auto;
      /* Adjust height */
-     background-color: rgba(24, 24, 24, 255);
+     background-color: white;
      /* DodgerBlue */
      font-size: 15px;
      /* Smaller font */
      text-align: center;
+
    }
  }
 
